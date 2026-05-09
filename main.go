@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	arraystring "github.com/tamilchiran/go-algo/array-string/leetcode"
-	array "github.com/tamilchiran/go-algo/array/leetcode"
-	mapString "github.com/tamilchiran/go-algo/map-string/leetcode"
+	"github.com/tamilchiran/go-algo/solutions/array"
+	"github.com/tamilchiran/go-algo/solutions/arraystring"
+	"github.com/tamilchiran/go-algo/solutions/hashmap"
 )
 
 func main() {
@@ -18,7 +18,7 @@ func main() {
 	//205. Isomorphic Strings
 	s := "egg"
 	t := "add"
-	fmt.Println("205. Isomorphic Strings: " + fmt.Sprint(mapString.IsIsomorphic(s, t)))
+	fmt.Println("205. Isomorphic Strings: " + fmt.Sprint(hashmap.IsIsomorphic(s, t)))
 
 	//53. Maximum Subarray
 	nums := []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}
