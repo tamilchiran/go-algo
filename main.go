@@ -36,4 +36,12 @@ func main() {
 	nums3 := []int{3, 2, 2, 3}
 	val := 3
 	fmt.Println("27. Remove Element: " + fmt.Sprint(array.RemoveElement(nums3, val)))
+
+	//26 Remove Duplicates from Sorted Array
+	nums4 := []int{1, 1, 2}
+	fmt.Println("26. Remove Duplicates from Sorted Array: " + fmt.Sprint(array.RemoveDuplicates(nums4)))
+
+	//80. Remove Duplicates from Sorted Array II
+	nums5 := []int{0, 0, 1, 1, 1, 1, 2, 3, 3}
+	fmt.Println("80. Remove Duplicates from Sorted Array II: " + fmt.Sprint(array.RemoveDuplicatesII(nums5)))
 }
