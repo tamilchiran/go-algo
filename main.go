@@ -48,4 +48,16 @@ func main() {
 	//169. Majority Element
 	nums6 := []int{1, 1, 1, 2, 2, 2, 3, 1, 1, 1}
 	fmt.Println("169. Majority Element: " + fmt.Sprint(array.MajorityElement(nums6)))
+
+	//189. Rotate Array
+	// Approach 1
+	nums7 := []int{1, 2, 3, 4, 5, 6, 7}
+	k := 3
+	array.RotateApproach1(nums7, k)
+	fmt.Println("189. Rotate Array Approach 1: " + fmt.Sprint(nums7))
+
+	// Approach 2
+	nums8 := []int{1, 2, 3, 4, 5, 6, 7}
+	array.RotateApproach2(nums8, k)
+	fmt.Println("189. Rotate Array Approach 2: " + fmt.Sprint(nums8))
 }
