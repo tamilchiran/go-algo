@@ -1,5 +1,8 @@
 package array
 
+/*
+https://leetcode.com/problems/remove-duplicates-from-sorted-array?envType=study-plan-v2&envId=top-interview-150
+*/
 func RemoveDuplicates(nums []int) int {
 	if len(nums) <= 1 {
 		return len(nums)

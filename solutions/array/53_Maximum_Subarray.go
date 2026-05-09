@@ -3,7 +3,7 @@ package array
 // Using Kadane's Algorithm
 
 /*
-https://leetcode.com/problems/maximum-subarray
+https://leetcode.com/problems/maximum-subarray?envType=study-plan-v2&envId=top-interview-150
 */
 func MaxSubArray(nums []int) int {
 	maxSum := nums[0]

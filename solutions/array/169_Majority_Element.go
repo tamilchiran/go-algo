@@ -1,5 +1,8 @@
 package array
 
+/*
+https://leetcode.com/problems/majority-element?envType=study-plan-v2&envId=top-interview-150
+*/
 func MajorityElement(nums []int) int {
 	if len(nums) == 0 {
 		return 0

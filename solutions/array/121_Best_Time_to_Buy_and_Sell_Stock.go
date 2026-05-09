@@ -1,5 +1,8 @@
 package array
 
+/*
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock?envType=study-plan-v2&envId=top-interview-150
+*/
 func MaxProfit(prices []int) int {
 	if len(prices) == 0 {
 		return 0
