@@ -44,4 +44,8 @@ func main() {
 	//80. Remove Duplicates from Sorted Array II
 	nums5 := []int{0, 0, 1, 1, 1, 1, 2, 3, 3}
 	fmt.Println("80. Remove Duplicates from Sorted Array II: " + fmt.Sprint(array.RemoveDuplicatesII(nums5)))
+
+	//169. Majority Element
+	nums6 := []int{1, 1, 1, 2, 2, 2, 3, 1, 1, 1}
+	fmt.Println("169. Majority Element: " + fmt.Sprint(array.MajorityElement(nums6)))
 }
