@@ -3,11 +3,11 @@
 Solutions for [LeetCode's Top Interview 150](https://leetcode.com/studyplan/top-interview-150/) implemented in **Go**.
 
 ## Progress Tracker
-- [ ] Array / String (0/22)
+- [ ] Array / String (9/22)
 - [ ] Two Pointers (0/7)
 - [ ] Sliding Window (0/4)
 - [ ] Matrix (0/4)
-- [ ] Hashmap (0/9)
+- [ ] Hashmap (1/9)
 - [ ] Intervals (0/5)
 - [ ] Stack (0/6)
 - [ ] Linked List (0/11)
@@ -40,6 +40,8 @@ Solutions for [LeetCode's Top Interview 150](https://leetcode.com/studyplan/top-
 | 80  | Remove Duplicates from Sorted Array II | Medium     | [Go](./solutions/array/80_Remove_Duplicates_from_Sorted_Array_II.go) |
 | 169 | Majority Element                       | Easy       | [Go](./solutions/array/169_Majority_Element.go)                      |
 | 189 | Rotate Array                           | Medium     | [Go](./solutions/array/189_Rotate_Array.go)                          |
+| 121 | Best Time to Buy and Sell Stock        | Easy       | [Go](./solutions/array/121_Best_Time_to_Buy_and_Sell_Stock.go)       |
+| 122 | Best Time to Buy and Sell Stock II     | Medium     | [Go](./solutions/array/122_Best_Time_to_Buy_and_Sell_Stock_II.go)    |
 
 
 ### Array / String
