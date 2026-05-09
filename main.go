@@ -60,4 +60,8 @@ func main() {
 	nums8 := []int{1, 2, 3, 4, 5, 6, 7}
 	array.RotateApproach2(nums8, k)
 	fmt.Println("189. Rotate Array Approach 2: " + fmt.Sprint(nums8))
+
+	//121. Best Time to Buy and Sell Stock
+	prices := []int{7, 1, 5, 3, 6, 4}
+	fmt.Println("121. Best Time to Buy and Sell Stock: " + fmt.Sprint(array.MaxProfit(prices)))
 }
