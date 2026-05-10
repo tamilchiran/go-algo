@@ -3,7 +3,7 @@
 Solutions for [LeetCode's Top Interview 150](https://leetcode.com/studyplan/top-interview-150/) implemented in **Go**.
 
 ## Progress Tracker
-- [ ] Array / String (9/22)
+- [ ] Array / String (10/22)
 - [ ] Two Pointers (0/7)
 - [ ] Sliding Window (0/4)
 - [ ] Matrix (0/4)
@@ -42,6 +42,7 @@ Solutions for [LeetCode's Top Interview 150](https://leetcode.com/studyplan/top-
 | 189 | Rotate Array                           | Medium     | [Go](./solutions/array/189_Rotate_Array.go)                          |
 | 121 | Best Time to Buy and Sell Stock        | Easy       | [Go](./solutions/array/121_Best_Time_to_Buy_and_Sell_Stock.go)       |
 | 122 | Best Time to Buy and Sell Stock II     | Medium     | [Go](./solutions/array/122_Best_Time_to_Buy_and_Sell_Stock_II.go)    |
+| 55  | Jump Game                              | Easy       | [Go](./solutions/array/55_Jump_Game.go)                              |
 
 
 ### Array / String

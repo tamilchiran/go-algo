@@ -13,12 +13,12 @@ func MaxProfit(prices []int) int {
 
 	/*
 	   eg: [7,1,5,3,6,4]
-	   0 -> minPrice = 7, profit = 0, maxProfit = 0
+	   0 -> minPrice = 7, profit = 0, 		maxProfit = 0
 	   1 -> minPrice = 1, profit = -6 so 0, maxProfit = 0
-	   2 -> minPrice = 1, profit = 4, maxProfit = 4
-	   3 -> minPrice = 1, profit = 2, maxProfit = 4
-	   4 -> minPrice = 1, profit = 5, maxProfit = 5
-	   5 -> minPrice = 1, profit = 3, maxProfit = 5
+	   2 -> minPrice = 1, profit = 4, 		maxProfit = 4
+	   3 -> minPrice = 1, profit = 2, 		maxProfit = 4
+	   4 -> minPrice = 1, profit = 5, 		maxProfit = 5
+	   5 -> minPrice = 1, profit = 3, 		maxProfit = 5
 	*/
 
 	/*

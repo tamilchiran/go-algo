@@ -64,4 +64,8 @@ func main() {
 	//121. Best Time to Buy and Sell Stock
 	prices := []int{7, 1, 5, 3, 6, 4}
 	fmt.Println("121. Best Time to Buy and Sell Stock: " + fmt.Sprint(array.MaxProfit(prices)))
+
+	//55. Jump Game
+	jump := []int{3, 2, 1, 0, 4}
+	fmt.Println("55. Jump Game: " + fmt.Sprint(array.CanJump(jump)))
 }
