@@ -68,4 +68,8 @@ func main() {
 	//55. Jump Game
 	jump := []int{3, 2, 1, 0, 4}
 	fmt.Println("55. Jump Game: " + fmt.Sprint(array.CanJump(jump)))
+
+	//45. Jump Game II
+	jumpII := []int{2, 3, 1, 1, 4}
+	fmt.Println("45. Jump Game II: " + fmt.Sprint(array.JumpII(jumpII)))
 }

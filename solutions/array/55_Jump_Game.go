@@ -1,5 +1,8 @@
 package array
 
+/*
+https://leetcode.com/problems/jump-game/?envType=study-plan-v2&envId=top-interview-150
+*/
 func CanJump(nums []int) bool {
 	if len(nums) == 0 {
 		return false
