@@ -3,11 +3,11 @@
 Solutions for [LeetCode's Top Interview 150](https://leetcode.com/studyplan/top-interview-150/) implemented in **Go**.
 
 ## Progress Tracker
-- [ ] Array / String (10/22)
+- [ ] Array / String (12/22)
 - [ ] Two Pointers (0/7)
 - [ ] Sliding Window (0/4)
 - [ ] Matrix (0/4)
-- [ ] Hashmap (1/9)
+- [ ] Hashmap (2/9)
 - [ ] Intervals (0/5)
 - [ ] Stack (0/6)
 - [ ] Linked List (0/11)
@@ -43,18 +43,22 @@ Solutions for [LeetCode's Top Interview 150](https://leetcode.com/studyplan/top-
 | 121 | Best Time to Buy and Sell Stock        | Easy       | [Go](./solutions/array/121_Best_Time_to_Buy_and_Sell_Stock.go)       |
 | 122 | Best Time to Buy and Sell Stock II     | Medium     | [Go](./solutions/array/122_Best_Time_to_Buy_and_Sell_Stock_II.go)    |
 | 55  | Jump Game                              | Easy       | [Go](./solutions/array/55_Jump_Game.go)                              |
+| 45  | Jump Game II                           | Medium     | [Go](./solutions/array/45_Jump_Game_II.go)                           |
+| 274 | H-Index                                | Medium     | [Go](./solutions/array/274_H-Index.go)                               |
+| 380 | Insert Delete GetRandom O(1)           | Medium     | [Go](./solutions/array/380_Insert_Delete_GetRandom_O(1).go)          |
 
 
-### Array / String
+
+### Array / String (to be removed and merged to hashmap go solution as alternative solution)
 | #   | Title        | Difficulty | Solution                                          |
 | --- | ------------ | ---------- | ------------------------------------------------- |
 | 383 | Ransome Note | Easy       | [Go](./solutions/arraystring/383_Ransome_Note.go) |
 
 ### Hashmap
-| #   | Title              | Difficulty | Solution                                      |
-| --- | ------------------ | ---------- | --------------------------------------------- |
-| 383 | Ransome Note       | Easy       | [Go](./solutions/hashmap/383_Ransome_Note.go) |
-| 205 | Isomorphic Strings | Easy       | [Go](./solutions/hashmap/383_Ransome_Note.go) |
+| #   | Title              | Difficulty | Solution                                            |
+| --- | ------------------ | ---------- | --------------------------------------------------- |
+| 383 | Ransome Note       | Easy       | [Go](./solutions/hashmap/383_Ransome_Note.go)       |
+| 205 | Isomorphic Strings | Easy       | [Go](./solutions/hashmap/205_Isomorphic_Strings.go) |
 ---
 
 ## Usage

@@ -78,6 +78,16 @@ func main() {
 	citations := []int{3, 0, 6, 1, 5}
 	fmt.Println("274. H-Index: " + fmt.Sprint(array.HIndex(citations)))
 
+	//380. Insert Delete GetRandom O(1)
+	randomizedSet := array.Constructor()
+	fmt.Println("380. Insert Delete GetRandom O(1) Insert 1: " + fmt.Sprint(randomizedSet.Insert(1)))
+	fmt.Println("380. Insert Delete GetRandom O(1) Remove 2: " + fmt.Sprint(randomizedSet.Remove(2)))
+	fmt.Println("380. Insert Delete GetRandom O(1) Insert 2: " + fmt.Sprint(randomizedSet.Insert(2)))
+	fmt.Println("380. Insert Delete GetRandom O(1) GetRandom: " + fmt.Sprint(randomizedSet.GetRandom()))
+	fmt.Println("380. Insert Delete GetRandom O(1) Remove 1: " + fmt.Sprint(randomizedSet.Remove(1)))
+	fmt.Println("380. Insert Delete GetRandom O(1) Insert 2: " + fmt.Sprint(randomizedSet.Insert(2)))
+	fmt.Println("380. Insert Delete GetRandom O(1) GetRandom: " + fmt.Sprint(randomizedSet.GetRandom()))
+
 	//Tools
 	sorting := []int{5, 2, 3, 1, 18, 0, 2, -1}
 	tools.Sorting(sorting, tools.ASCENDING)
