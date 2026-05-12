@@ -88,6 +88,10 @@ func main() {
 	fmt.Println("380. Insert Delete GetRandom O(1) Insert 2: " + fmt.Sprint(randomizedSet.Insert(2)))
 	fmt.Println("380. Insert Delete GetRandom O(1) GetRandom: " + fmt.Sprint(randomizedSet.GetRandom()))
 
+	//238. Product of Array Except Self
+	nums9 := []int{1, 2, 3, 4}
+	fmt.Println("238. Product of Array Except Self: " + fmt.Sprint(array.ProductExceptSelf(nums9)))
+
 	//Tools
 	sorting := []int{5, 2, 3, 1, 18, 0, 2, -1}
 	tools.Sorting(sorting, tools.ASCENDING)
