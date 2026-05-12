@@ -6,6 +6,7 @@ import (
 	"github.com/tamilchiran/go-algo/solutions/array"
 	"github.com/tamilchiran/go-algo/solutions/arraystring"
 	"github.com/tamilchiran/go-algo/solutions/hashmap"
+	"github.com/tamilchiran/go-algo/solutions/tools"
 )
 
 func main() {
@@ -72,4 +73,15 @@ func main() {
 	//45. Jump Game II
 	jumpII := []int{2, 3, 1, 1, 4}
 	fmt.Println("45. Jump Game II: " + fmt.Sprint(array.JumpII(jumpII)))
+
+	//274. H-Index
+	citations := []int{3, 0, 6, 1, 5}
+	fmt.Println("274. H-Index: " + fmt.Sprint(array.HIndex(citations)))
+
+	//Tools
+	sorting := []int{5, 2, 3, 1, 18, 0, 2, -1}
+	tools.Sorting(sorting, tools.ASCENDING)
+	fmt.Printf("Sorting from lowest to highest: %v\n", sorting)
+	tools.Sorting(sorting, tools.DESCENDING)
+	fmt.Printf("Sorting from highest to lowest: %v\n", sorting)
 }

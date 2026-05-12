@@ -19,6 +19,11 @@ func JumpII(nums []int) int {
 	   4 -> farthest = 1 + 4 = 5, currentJumpRangeEnd = 5, jumps = 3 // Should not happen, so limit to len(nums)-1
 	*/
 
+	/*
+	   speed -> o(n)
+	   space -> o(4) == o(1)
+	   beats 100%
+	*/
 	for i := 0; i < len(nums)-1; i++ {
 		if i+nums[i] > farthest {
 			farthest = i + nums[i]
